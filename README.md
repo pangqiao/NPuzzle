@@ -12,7 +12,7 @@ Goal configuration
 
 ![goal](https://github.com/pangqiao/NPuzzle/blob/master/full.jpg)
 
-# Algorithm:
+# Algorithm
 The mouse click is mapped to UP, DOWN, LEFT and RIGHT accordingly.
 Such as: 
 0 is in the tile of(2,3)，if  I click 11,   11 moves to the right. 
@@ -29,7 +29,7 @@ def move( direction):
       blocks[row_0][column_0 - 1] = 0
       column_0 -= 1 
 ```
-# Make sure the final configuration can be reached.
+# Make sure the final configuration can be reached
 In initial  state, make all the data according to the final configuration first. And then 
 move the tiles in random direction with different rounds. The round decides the different
 Level :easy, medium or high. 
